@@ -27,6 +27,7 @@ $color-white: #ffffff;
    
 @font-face { font-family: 'ProximaNova-Black';  src: local('ProximaNova-Black'), url('https://nomail.com.ua/files/woff/aa46d234cf405126cdd1c36600e4b978.woff') format('woff'); }
 
+// === Common ===
 *{
    box-sizing: border-box;
 }
@@ -46,6 +47,9 @@ body {
    margin: auto;
 }
 
+// === /Common ===
+
+// === header ===
 .header {
    display: flex;
    align-items: center;
@@ -61,6 +65,9 @@ body {
    margin-right: 15px;
 }
 
+// === /header ===
+
+// === hero(description) ===
 .hero__subtitle {
    display: block;
    margin-top: 78px;
@@ -136,6 +143,9 @@ body {
    top: -8px;
 }
 
+// === /hero(description) ===
+
+// === episodes ===
 .episodes {
    padding: 60px 0;
 }
@@ -228,7 +238,7 @@ body {
 .slider__nav--left span, .slider__nav--right span {
    display: none;
 }
-
+// === /episodes ===
 
 // Responsive
 
